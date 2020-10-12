@@ -44,7 +44,8 @@ sqrt(abs(x - xBar))
 #q3,5
 max(y)
 i =  c(y > (max(y) - 200))
-y[i]
+yAns = subset(y,max(y) - y < 200 )
+length(y[i])
 y
 
 #q3.6
@@ -53,9 +54,13 @@ xyz
 x[xyz]
 length(x[xyz])
 
+sum(x%%2 == 0)
+
+
+
 
 #q3.7
 
 
 #q3.8
-y[1]
+y[c(1,4,7,10)]
